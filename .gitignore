@@ -1,6 +1,6 @@
 chatbot_model.h5
 classes.pkl
-traindata.pkl
+training_data.pkl
 words.pkl
 etc
 Lib 
