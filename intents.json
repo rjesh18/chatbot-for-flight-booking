@@ -1,0 +1,201 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to FlyAssist, your personal flight booking assistant.",
+        "Hi there! How can I help you with your travel plans today?",
+        "Hey, ready to book a flight?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Thanks, that's all"
+      ],
+      "responses": [
+        "Goodbye! Have a safe journey!",
+        "Take care, looking forward to helping you again.",
+        "Thanks for using FlyAssist, happy travels!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime. Have a great trip!"
+      ]
+    },
+    {
+      "tag": "book_flight",
+      "patterns": [
+        "I want to book a flight",
+        "Book me a flight",
+        "I need to fly",
+        "Can you find me a flight"
+      ],
+      "responses": [
+        "Sure! Can you tell me from which city you are flying?",
+        "I'd be happy to help. Let's start — what’s your departure city?",
+        "Of course! First, where will you be flying from?"
+      ]
+    },
+    {
+      "tag": "departure_city",
+      "patterns": [
+        "I am leaving from New York",
+        "From Delhi",
+        "My departure city is London",
+        "Flying from Toronto"
+      ],
+      "responses": [
+        "Got it! What is your destination city?",
+        "Okay, noted. Where would you like to fly to?"
+      ]
+    },
+    {
+      "tag": "arrival_city",
+      "patterns": [
+        "I want to go to Paris",
+        "Flying to Tokyo",
+        "My destination is Dubai",
+        "Going to Los Angeles"
+      ],
+      "responses": [
+        "Great! When would you like to depart?",
+        "Perfect! What date are you planning to travel?"
+      ]
+    },
+    {
+      "tag": "travel_date",
+      "patterns": [
+        "On 15th August",
+        "Next Friday",
+        "Tomorrow",
+        "October 20"
+      ],
+      "responses": [
+        "Thanks! Do you want a one-way or a round trip?",
+        "Noted. Is this a one-way trip or round trip?"
+      ]
+    },
+    {
+      "tag": "trip_type",
+      "patterns": [
+        "One way",
+        "Round trip",
+        "Return ticket"
+      ],
+      "responses": [
+        "Got it! How many passengers will be flying?",
+        "Okay. How many people are traveling?"
+      ]
+    },
+    {
+      "tag": "passenger_count",
+      "patterns": [
+        "Just me",
+        "2 people",
+        "We are 3 passengers",
+        "Family of 4"
+      ],
+      "responses": [
+        "Perfect. Let me search for flights matching your criteria...",
+        "Great! I’ll check available flights now."
+      ]
+    },
+    {
+      "tag": "show_flights",
+      "patterns": [
+        "Show available flights",
+        "Find me options",
+        "List flights",
+        "What are my choices?"
+      ],
+      "responses": [
+        "Here are some flights matching your search. Which one would you like to choose?",
+        "I found a few suitable options for you. Would you like to book one?"
+      ]
+    },
+    {
+      "tag": "confirm_booking",
+      "patterns": [
+        "Yes, book it",
+        "Confirm this flight",
+        "I want to book that one"
+      ],
+      "responses": [
+        "Great! Please provide passenger details (name, age, ID proof).",
+        "Perfect choice! Share passenger details to confirm booking."
+      ]
+    },
+    {
+      "tag": "booking_complete",
+      "patterns": [
+        "Here are the details",
+        "Passenger name is John",
+        "Booking details"
+      ],
+      "responses": [
+        "Your booking is confirmed! 🎉 Your e-ticket will be sent to your email.",
+        "Booking successful! Wishing you a wonderful trip."
+      ]
+    },
+    {
+      "tag": "flight_status",
+      "patterns": [
+        "Check flight status",
+        "Is flight AI202 on time?",
+        "What is the status of my flight?",
+        "Track my flight"
+      ],
+      "responses": [
+        "Sure! Please provide your flight number to get the status.",
+        "I can check that for you. May I have your flight number?"
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "Cancel my booking",
+        "I want to cancel my flight",
+        "Cancel ticket",
+        "Abort booking"
+      ],
+      "responses": [
+        "Okay, please provide your booking reference number.",
+        "Sure, share your booking ID so I can process the cancellation."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What can you do?",
+        "Help",
+        "How do I use this?",
+        "Guide me"
+      ],
+      "responses": [
+        "I can help you search and book flights, check flight status, and manage your bookings.",
+        "I am your travel assistant! I can help with flight search, booking, status checks, and cancellations."
+      ]
+    }
+  ]
+}
